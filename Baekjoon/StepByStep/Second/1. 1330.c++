@@ -1,15 +1,17 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
     int A, B;
-    std:: cin >> A >> B;
+    cin >> A >> B;
 
     if (A < B) {
-      std::cout << "<" << std::endl;
+      cout << "<" << "\n";
     } else if (A > B) {
-      std::cout << ">" << std::endl;
+      cout << ">" << "\n";
     } else if (A == B) {
-      std::cout << "==" << std::endl;
+      cout << "==" << "\n";
     }
   
     return 0;

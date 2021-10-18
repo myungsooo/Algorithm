@@ -1,11 +1,13 @@
 #include <iostream>
 
+using namespace std; 
+
 int main() {
-	std::cout << "|\\_/|" << std::endl;
-	std::cout << "|q p|   /}" << std::endl;
-	std::cout << "( 0 )\"\"\"\\" << std::endl;
-	std::cout << "|\"^\"`    |"<< std::endl;
-	std::cout << "||_/=\\\\__|"<< std::endl;
+	cout << "|\\_/|" << "\n";
+	cout << "|q p|   /}" << "\n";
+	cout << "( 0 )\"\"\"\\" << "\n";
+	cout << "|\"^\"`    |" << "\n";
+	cout << "||_/=\\\\__|" << "\n";
     
-  return 0;
+    return 0;
 }

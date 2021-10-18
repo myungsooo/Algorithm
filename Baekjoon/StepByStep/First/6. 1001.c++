@@ -1,9 +1,11 @@
 #include <iostream>
 
+using namespace std; 
+
 int main() {
     int i, j;
-    std::cin >> i >> j;
-    std::cout << i - j << std::endl;
+    cin >> i >> j;
+    cout << i - j << "\n";
     
     return 0;
 }

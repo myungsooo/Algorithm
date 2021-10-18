@@ -1,14 +1,16 @@
 #include <iostream>
 
+using namespace std; 
+
 int main() {
     int i, j;
-    std::cin >> i >> j;
+    cin >> i >> j;
     
-    std::cout << i + j << std::endl;
-    std::cout << i - j << std::endl;
-    std::cout << i * j << std::endl;
-    std::cout << i / j << std::endl;
-    std::cout << i % j << std::endl;
+    cout << i + j << "\n";
+	cout << i - j << "\n";
+	cout << i * j << "\n";
+	cout << i / j << "\n";
+	cout << i % j << "\n";
     
     return 0;
 }

@@ -1,12 +1,14 @@
 #include <iostream>
 
+using namespace std; 
+
 int main() {
     double i, j;
-    std::cin >> i >> j;
+    cin >> i >> j;
 
-		std::cout.precision(12);
-		std::cout << std::fixed;
-    std::cout << i / j << std::endl;
+	cout.precision(12);
+	cout << fixed;
+    cout << i / j << "\n";
     
     return 0;
 }

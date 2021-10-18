@@ -1,20 +1,25 @@
 #include <iostream>
 
-int main() {
-    int A;
-    std:: cin >> A;
+using namespace std;
 
-    if (A >= 90) {
-      std::cout << "A" << std::endl;
-    } else if (A >= 80) {
-      std::cout << "B" << std::endl;
-    } else if (A >= 70) {
-      std::cout << "C" << std::endl;
-    } else if (A >= 60) {
-      std::cout << "D" << std::endl;
-    } else {
-      std::cout << "F" << std::endl;
-    }
-  
-    return 0;
+int main() {
+  int A;
+  cin >> A;
+
+  if (A >= 90) {
+    cout << "A" << "\n"; 
+  }
+  else if (A >= 80) {
+    cout << "B" << "\n"; 
+  }
+  else if (A >= 70) {
+    cout << "C" << "\n"; 
+  }
+  else if (A >= 60) {
+    cout << "D" << "\n"; 
+  }
+  else {
+    cout << "F" << "\n"; 
+  }
+  return 0;
 }
